@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $user = 'root';
-$pass = '';
+$pass = 'bit212_pass';
 $db = 'bit212_db';
 
 $conn = new mysqli($host, $user, $pass, $db);
