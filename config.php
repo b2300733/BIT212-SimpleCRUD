@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$user = 'root';
+$user = 'bituser';
 $pass = 'bit212_pass';
 $db = 'bit212_db';
 
