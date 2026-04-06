@@ -1,12 +1,12 @@
 <?php
 require 'config.php';
 
-// Create table if not exists
-$conn->query("CREATE TABLE IF NOT EXISTS products (
+// Create table
+CREATE TABLE products (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    price DECIMAL(10,2) NOT NULL
-)");
+    name VARCHAR(100),
+    price DECIMAL(10,2)
+);
 
 // Handle Add Product
 if (isset($_POST['add'])) {
